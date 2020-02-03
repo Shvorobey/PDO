@@ -1,0 +1,23 @@
+{
+    "name": "shvorobey/php-pdo-db",
+    "type": "library",
+    "description": "PHP Class to work with the database using PDO",
+    "authors": [
+        {
+            "name": "Alexandr Shvorobey",
+            "email": "yunpp@ukr.net"
+        }
+    ],
+    "require": {
+        "php": "^5.4|^7.0",
+        "cri2net/php-singleton": "~1.0"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Shvorobey\\": "src"
+        }
+    },
+    "license": "proprietary"
+}
